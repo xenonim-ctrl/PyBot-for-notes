@@ -68,7 +68,7 @@ cd tarot-diary-bot</code></pre>
 <pre><code>CREATE DATABASE notebot;</code></pre>
 
 <h3>4. Конфигурация</h3>
-<p>Создайте файл <code>.env</code> в корневой директории:</p>
+<p>Создайте или измените файл <code>.env</code> в корневой директории:</p>
 <pre><code>BOT_TOKEN=your_telegram_bot_token_here
 ALLOWED_USERS=123456789,987654321
 
