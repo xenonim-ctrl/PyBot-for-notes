@@ -60,3 +60,83 @@ Telegram бот для ведения личного дневника с под�
 ```bash
 git clone https://github.com/your-username/tarot-diary-bot.git
 cd tarot-diary-bot
+
+<h3>2. Установка зависимостей</h3>
+<pre><code>pip install -r requirements.txt</code></pre>
+
+<h3>3. Настройка базы данных</h3>
+<p>Убедитесь, что PostgreSQL запущен и создайте базу данных:</p>
+<pre><code>CREATE DATABASE notebot;</code></pre>
+
+<h3>4. Конфигурация</h3>
+<p>Создайте файл <code>.env</code> в корневой директории:</p>
+<pre><code>BOT_TOKEN=your_telegram_bot_token_here
+ALLOWED_USERS=123456789,987654321
+
+DB_HOST=localhost
+DB_NAME=notebot  
+DB_USER=postgres
+DB_PASS=your_password
+DB_PORT=5432</code></pre>
+
+<h3>5. Запуск бота</h3>
+<pre><code>python main.py</code></pre>
+
+<h2>🗃 Структура проекта</h2>
+<pre>
+tarot-diary-bot/
+├── 🎯 main.py              # Основной файл бота
+├── 🗄️ db.py               # Работа с базой данных
+├── 🏗️ states.py           # Состояния FSM
+├── 🛠️ functions.py        # Вспомогательные функции
+├── 📦 requirements.txt    # Зависимости проекта
+└── ⚙️ .env               # Конфигурация (не в репозитории)
+</pre>
+
+<h2>💾 База данных</h2>
+<table>
+  <tr>
+    <th>Таблица</th>
+    <th>Назначение</th>
+  </tr>
+  <tr>
+    <td><strong>spreads</strong></td>
+    <td>📊 Записи раскладов Таро</td>
+  </tr>
+  <tr>
+    <td><strong>dreams</strong></td>
+    <td>💭 Записи сновидений</td>
+  </tr>
+  <tr>
+    <td><strong>premonitions</strong></td>
+    <td>🌪️ Интуитивные предчувствия</td>
+  </tr>
+  <tr>
+    <td><strong>rituals</strong></td>
+    <td>🕯️ Магические ритуалы</td>
+  </tr>
+  <tr>
+    <td><strong>results</strong></td>
+    <td>📄 Итоги и выводы</td>
+  </tr>
+</table>
+
+<h2>🔧 Кастомизация</h2>
+
+<h4>Добавление новой категории:</h4>
+<ol>
+  <li>Добавьте таблицу в БД</li>
+  <li>Обновите <code>CATEGORY_TABLE</code> в functions.py</li>
+  <li>Создайте состояния FSM в states.py</li>
+  <li>Добавьте обработчики в main.py</li>
+</ol>
+
+<h4>Настройка прав доступа:</h4>
+<p>Отредактируйте <code>ALLOWED_USERS</code> в .env файле:</p>
+<pre><code>ALLOWED_USERS=480196511,1177466334,1097186320</code></pre>
+
+<div align="center">
+  <h2>⭐ Если вам понравился этот проект, не забудьте поставить звезду! ⭐</h2>
+  <p><em>С любовью для магического сообщества 💫</em></p>
+</div>
+<img src="https://img.icons8.com/color/96/000000/tarot-cards.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/dream.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/magic-crystal-ball.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/intuition.png" width="64" height="64"/></div> ```
