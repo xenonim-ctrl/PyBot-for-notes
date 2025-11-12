@@ -54,12 +54,11 @@ Telegram бот для ведения личного дневника с под�
 - **python-dotenv** - управление конфигурацией
 - **Asyncio** - асинхронное программирование
 
-## 📦 Установка и настройка
+<h2>📦 Установка и настройка</h2>
 
-### 1. Клонирование репозитория
-```bash
-git clone https://github.com/your-username/tarot-diary-bot.git
-cd tarot-diary-bot
+<h3>1. Клонирование репозитория</h3>
+<pre><code>git clone https://github.com/your-username/tarot-diary-bot.git
+cd tarot-diary-bot</code></pre>
 
 <h3>2. Установка зависимостей</h3>
 <pre><code>pip install -r requirements.txt</code></pre>
