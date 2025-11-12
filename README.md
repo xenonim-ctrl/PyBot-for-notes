@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/Aiogram-3.x-green.svg" alt="Aiogram Version">
+  <img src="https://img.shields.io/badge/Aiogram-3.22.0-green.svg" alt="Aiogram Version">
   <img.shields.io/badge/PostgreSQL-Supported-orange.svg" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Telegram-Bot-blue.svg" alt="Telegram Bot">
 </p>
