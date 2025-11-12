@@ -132,7 +132,7 @@ tarot-diary-bot/
 
 <h4>Настройка прав доступа:</h4>
 <p>Отредактируйте <code>ALLOWED_USERS</code> в .env файле:</p>
-<pre><code>ALLOWED_USERS=480196511,1177466334,1097186320</code></pre>
+<pre><code>ALLOWED_USERS=***</code></pre>
 
 <div align="center">
   <h2>⭐ Если вам понравился этот проект, не забудьте поставить звезду! ⭐</h2>
