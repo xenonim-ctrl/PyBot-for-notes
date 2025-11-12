@@ -57,7 +57,7 @@ Telegram бот для ведения личного дневника с под�
 <h2>📦 Установка и настройка</h2>
 
 <h3>1. Клонирование репозитория</h3>
-<pre><code>git clone https://github.com/your-username/tarot-diary-bot.git
+<pre><code>git clone https://github.com/xenonim-ctrl/PyBot-for-notes.git
 cd tarot-diary-bot</code></pre>
 
 <h3>2. Установка зависимостей</h3>
