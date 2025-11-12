@@ -139,5 +139,5 @@ tarot-diary-bot/
   <p><em>С любовью для магического сообщества 💫</em></p>
 </div>
 <div align="center">
-<img src="https://img.icons8.com/color/96/000000/tarot-cards.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/magic-crystal-ball.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/intuition.png" width="64" height="64"/></div>
+<img src="https://img.icons8.com/color/96/000000/tarot-cards.png" width="64" height="64"/> <img src="https://img.icons8.com/color/96/000000/magic-crystal-ball.png" width="64" height="64"/></div>
 
