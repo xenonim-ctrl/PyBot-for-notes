@@ -78,8 +78,10 @@ Telegram-бот для ведения личных заметок с катег�
 - компактный и читаемый формат
 - внизу списка находится кнопка 🔎 Поиск
 
-
-![List](docs/images/read_list.jpeg)
+<p align="center">
+  <img src="docs/images/read_list.JPEG" width="600"><br>
+  <em>Рис. 1 — Список записей</em>
+</p>
 
 ---
 
@@ -92,7 +94,10 @@ Telegram-бот для ведения личных заметок с катег�
 - сортировка сохраняется
 
 
-![Search](docs/images/search.jpeg)
+<p align="center">
+  <img src="docs/images/search.JPEG" width="600"><br>
+  <em>Рис. 2 — Список записей по поиску</em>
+</p>
 
 Все записи поиска при открытии имеют те же функции, что и в главном списке,
 разница лишь в том, что список поиска будет состоять **только**
@@ -112,7 +117,10 @@ Telegram-бот для ведения личных заметок с катег�
 - 📌 Добавление итога
 
 
-![Card](docs/images/notecard.jpeg)
+<p align="center">
+  <img src="docs/images/notecard.JPEG" width="600"><br>
+  <em>Рис. 3 — Карточка заметки</em>
+</p>
 
 ---
 
@@ -127,7 +135,10 @@ Telegram-бот для ведения личных заметок с катег�
 
 При просмотре итог отправляется отдельным сообщением.
 
-![Result](docs/images/result.jpeg)
+<p align="center">
+  <img src="docs/images/result.JPEG" width="600"><br>
+  <em>Рис. 4 — Итог</em>
+</p>
 
 ---
 
