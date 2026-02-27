@@ -1,0 +1,14 @@
+# venv
+.venv/
+venv/
+
+# secrets
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
